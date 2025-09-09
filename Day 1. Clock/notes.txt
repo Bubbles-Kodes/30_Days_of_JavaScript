@@ -1,0 +1,13 @@
+Steps to Create JavaScript Clock Notes :)
+
+1. Get current time, you can use the date object in JavaScript to get the current time.
+2. Calculate the correct rotation for each hand based on the current time.
+3. Select the hand elements in the HTML code.
+4. Apply the rotation using the transform: rotate() CSS property.
+5. Use setInterval to update hands' rotation every second.
+
+Div Elements Notes :)
+
+1.Create a container for the clock face.
+2.Add three <divs> for hour, minute and second hands.
+3.Use CSS to position, size, and rotate each hand from the center. 

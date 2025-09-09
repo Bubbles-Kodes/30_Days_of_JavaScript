@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.clock {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url(assets/background_clock.png);
+    background-size: cover;
+    margin: 50px;
+}
+
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: bottom center;
+    background: #333;
+    border-radius: 6px;
+}
+
+.hour {
+    width: 8px;
+    height: 70px;
+    background: #222;
+    z-index: 1;
+}
+
+.minutes {
+    width: 6px;
+    height: 100px;
+    background: #555;
+    z-index: 2;
+}
+
+.seconds {
+    width: 2px;
+    height: 120px;
+    background: pink;
+    z-index: 3;
+}
